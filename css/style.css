@@ -1,42 +1,64 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* ---- element styles ---- */
 body {
-    font-family: 'Lato', sans-serif;
-    color: midnightblue;
+	font-family: 'Lato', sans-serif;
 }
 
-h1 {
-    text-align: center;
+h1,
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
 }
 
 ul {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0px 20px;
+	≠: 100%;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+img {
+	max-width: 100%;
 }
 
 ul li {
-    list-style-type: none;
-    display: inline-block;
-    width: 100%;
-    margin: 5px auto;
-    text-align: center;
-    padding: 2px 30px;
-    border: 1px solid midnightblue;
+	list-style-type: none;
+	display: inline-block;
+	width: 100%;
+	margin: 5px auto;
+	text-align: center;
+	padding: 2px 30px;
+	border: 1px solid midnightblue;
 }
 
-.portfolio-img {
-    width: 300px;
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.banner {
+	color: black;
+	background: rgb(238, 191, 191);
+	text-align: center;
+	padding: 1em;
+	margin-bottom: 50px;
+}
+
+.banner-img {
+	width: 300px;
+	margin: 0 auto;
 }
 
 /* ---- pseudo styles ---- */
 a:link {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
 }
 
 /* ---- layout styles ---- */
