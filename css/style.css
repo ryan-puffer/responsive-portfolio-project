@@ -2,9 +2,13 @@
 	box-sizing: border-box;
 }
 
-/* ---- element styles ---- */
+/* ---- base element styles ---- */
 body {
 	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
 }
 
 h1,
@@ -17,7 +21,7 @@ p {
 }
 
 ul {
-	≠: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0px 20px;
 }
@@ -29,29 +33,69 @@ img {
 ul li {
 	list-style-type: none;
 	display: inline-block;
+	background: white;
 	width: 100%;
 	margin: 5px auto;
 	text-align: center;
-	padding: 2px 30px;
-	border: 1px solid midnightblue;
+	padding: 10px 30px;
+	font-size: 1.5rem;
 }
+
+/* ---- base layout styles ---- */
 
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
 }
 
+.main-header {
+	padding-bottom: 20px;
+	background: #fffafe;
+}
+
 .banner {
 	color: black;
-	background: rgb(238, 191, 191);
+	background: #fffafe;
 	text-align: center;
 	padding: 1em;
 	margin-bottom: 50px;
 }
 
-.banner-img {
-	width: 300px;
-	margin: 0 auto;
+.summary {
+	line-height: 1.5em;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+.main-nav a {
+	display: block;
+}
+.profile-img {
+	margin: 30px auto;
+}
+
+.main-footer {
+	background: #fffafe;
+}
+
+.contact {
+	width: 90%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fffafe;
+}
+
+.footer-name {
+	float: left;
+	padding: 15px;
+	background: white;
+}
+
+.footer-link {
+	float: right;
+	padding: 15px;
+	background: white;
 }
 
 /* ---- pseudo styles ---- */
@@ -61,6 +105,10 @@ a:link {
 	text-transform: uppercase;
 }
 
-/* ---- layout styles ---- */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 /* ---- media queries ---- */
