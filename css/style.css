@@ -25,6 +25,7 @@ ul {
 	width: 100%;
 	margin: 0 auto;
 	padding: 0px 20px;
+	list-style: none;
 }
 
 img {
@@ -145,6 +146,10 @@ a:hover {
 	clear: both;
 }
 
+#footer-nav {
+	display: none;
+}
+
 /* ---- media queries ---- */
 
 @media (min-width: 768px) {
@@ -194,6 +199,18 @@ a:hover {
 		max-width: 350px;
 		margin: 10px auto;
 	}
+
+	.mid-padding {
+		padding-top: 204.16px;
+	}
+
+	#btt-link {
+		display: none;
+	}
+
+	#footer-nav {
+		display: inline-block;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -220,5 +237,9 @@ a:hover {
 
 	.banner {
 		margin-top: 120px;
+	}
+
+	.padding {
+		padding-top: 125px;
 	}
 }
