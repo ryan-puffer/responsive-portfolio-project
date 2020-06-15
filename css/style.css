@@ -208,7 +208,7 @@ a:hover {
 		display: none;
 	}
 
-	#footer-nav {
+	.footer-nav {
 		display: inline-block;
 	}
 }
